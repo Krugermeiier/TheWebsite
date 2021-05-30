@@ -1,0 +1,50 @@
+:root {
+    --green: #00FF00;
+    --white: #ffffff;
+    --black: #000000;
+    --navy: #013152;
+  }
+* {
+    color: var(--fontColor);
+    font-family: helvetica;
+}
+body {
+    background: var(--bg);
+}
+ul {
+    font-family: helvetica;
+}
+li {
+    list-style: circle;
+} 
+.list {
+    list-style: square;
+}
+.dark-theme {
+    --bg: var(--navy);
+    --fontColor: var(--white);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+.yt {
+    position: absolute;
+    top: 20px;
+    left: 600px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+.yt:focus { outline-style: none; }
+.tw {
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+.tw:focus { outline-style: none; }
