@@ -107,7 +107,7 @@ li {
     overflow-x: hidden;
     padding-top: 50px;
     padding: 0px 10px;
-    background-image: url("topbar.jpg");
+    background-image: url("https://raw.githubusercontent.com/krugermeiier/TheWebsite/main/topbar.jpg");
     vertical-align: middle;
     text-align: left;
 }
