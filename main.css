@@ -2,8 +2,7 @@
     --green: #00FF00;
     --white: #ffffff;
     --black: #000000;
-    --navy: #012f4e;
-    --darkGrey: #303030;
+    --darkGrey: #1d242a;
   }
 * {
     color: var(--fontColor);
@@ -57,7 +56,7 @@ li {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background-color: #363b3f;
     overflow-x: hidden;
     padding-top: 20px;
 }
@@ -67,6 +66,12 @@ li {
     font-size: 25px;
     color: #818181;
     display: block;
+} 
+.sidenav p {
+    padding: 1px 1px 1px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
 } 
 .sidenav a:hover {
     color: #f1f1f1;
@@ -79,4 +84,34 @@ li {
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
+}
+
+.bgImage {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+.topbar {
+    margin-left: 160px;
+    font-size: 28px;
+    height: 300px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 50px;
+    padding: 0px 10px;
+    background-image: url("topbar.jpg");
+    vertical-align: middle;
+    text-align: left;
+}
+
+.topbar h1{
+    padding-top: 20px;
 }
