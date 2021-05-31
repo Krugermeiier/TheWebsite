@@ -1,4 +1,4 @@
-:root { 
+:root {
     --green: #00FF00;
     --white: #ffffff;
     --black: #000000;
@@ -72,8 +72,8 @@ li {
     color: #f1f1f1;
 }
 .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
+    margin-left: 160px;
+    font-size: 28px;
     padding: 0px 10px;
 }
 @media screen and (max-height: 450px) {
